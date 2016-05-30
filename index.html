@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name=viewport content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="font-awesome.min.css">
+</head>
+
+<body>
+	<div class="card">
+		<from>
+			<figure>
+				<figcaption>Author</figcaption>
+				<input id="author" type="text">
+			</figure>
+			<figure>
+				<figcaption>Book title</figcaption>
+				<input id="bookTitle" type="text">
+
+			</figure>
+			<figure>
+				<figcaption>Year of publishing</figcaption>
+				<input id="year" type="date">
+
+			</figure>
+			<figure>
+				<figcaption>Pages count</figcaption>
+				<input id="pages" type="number">
+
+			</figure>
+			<button class="cancel"><i class="fa fa-times" aria-hidden="true"></i> CANCEL</button>
+			<input id="add" type="submit" value="Add">
+		</from>
+	</div>
+	<div class="list">
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Author</th>
+					<th>Year</th>
+					<th>Pages</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+
+			</tbody>
+		</table>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
